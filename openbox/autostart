@@ -1,0 +1,13 @@
+# Programs that will run after Openbox has started
+
+# Set the wallpaper
+feh --bg-scale ~/Imagens/wpprs/nebula.jpg &
+
+# Run a Composite manager
+xcompmgr &
+
+# SCIM support (for typing non-english characters)
+setxkbmap br &
+
+# Tint2
+tint2 &
