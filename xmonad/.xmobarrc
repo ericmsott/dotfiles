@@ -1,0 +1,14 @@
+Config {
+       font = "xft:Hack:size=9:antialias=true"
+       , bgColor = "#283339"
+       , fgColor = "#ffffff"
+       , position = TopW R 100
+       , hideOnStart = False 
+       , commands = [
+                      Run Date "%a %d.%m. %H:%M:%S" "date" 1
+                    ]
+       , sepChar = "%"
+       , alignSep = "}{"
+       , template = "}{ %date%"
+       }
+
